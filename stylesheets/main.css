@@ -1,0 +1,141 @@
+body {
+  padding: 1em 2em 1em 2em;
+  width: 850px;
+  height: 1300px;
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/*======
+  INFO
+======*/
+
+ul {
+  list-style: none;
+}
+
+div.info {
+  display: inline-block;
+  padding-top: 40px;
+  width: 24%;
+  text-align: right;
+}
+
+.info h1 {
+  font-size: 26px;
+  margin-bottom: .4em;
+}
+
+.info li {
+  font-size: 15px;
+  padding-bottom: 1em;
+}
+
+.info li.title {
+  font-size: 18px;
+  color: #727171;
+  font-weight: 300;
+}
+
+.to p {
+  font-size: 14px;
+  text-align: right;
+  line-height: 1.5em;
+}
+
+.from li {
+  font-size: 14px;
+}
+
+div.space {
+  height: 500px;
+}
+
+/*===============
+     CONTENT
+===============*/
+
+.content h2 {
+  margin-top: 0;
+  font-size: 17px;
+  font-weight: 800;
+  color: #B2B2B2;
+}
+
+div.content {
+  margin: 0;
+  padding: 80px 0;
+  vertical-align: top;
+  float: right;
+  display: inline-block;
+  width: 72%;
+}
+
+.content h3 {
+  font-size: 19px;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+}
+
+p.subtitle {
+  padding: .1em 0 .5em 0;
+  font-size: 18px;
+  font-weight: 200;
+  color: #727171;
+}
+
+.projects p.subtitle {
+  padding: .1em 0 0 0;
+}
+
+.content li {
+  padding: .3em 0;
+  font-size: 14px;
+  list-style: none;
+}
+
+.content h3 span {
+  display: inline-block;
+  padding-left: .5em;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.content h3 span:before {
+  content: '// ';
+}
+
+.content div {
+  padding: 20px 0;
+  border-bottom: 1.5px dashed #9B9B9B;
+}
+
+
+/*=============
+  LETTER BODY
+=============*/
+
+
+div.letter-body {
+  padding-top: 116px;
+}
+
+.letter-body h3 {
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.letter-body p {
+  margin-bottom: 1em;
+  font-size: 18px;
+  line-height: 1.4em;
+}
